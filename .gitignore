@@ -1,0 +1,16 @@
+*.o
+*.d
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+solvers/minisat/*
+solvers/cryptominisat-5.0.1/build/*
+solvers/abcdsat_i17/abcdsat-_i17/build/*
+solvers/abcdsat_i17/libipasirabcdsat_i17.a
+solvers/riss_7/libipasirriss_7.a
+solvers/riss_7/libriss-coprocessor.a
+solvers/riss_7/riss_7/*
+src/triangulator
+triangulator
