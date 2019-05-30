@@ -1,0 +1,59 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43622/fast"
+make[3]: Entering directory '/media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_43622.dir/build.make CMakeFiles/cmTC_43622.dir/build
+make[4]: Entering directory '/media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43622.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_43622.dir/CheckSymbolExists.c.o   -c /media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_43622
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43622.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_43622.dir/CheckSymbolExists.c.o  -o cmTC_43622 
+CMakeFiles/cmTC_43622.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_43622.dir/build.make:97: recipe for target 'cmTC_43622' failed
+make[4]: *** [cmTC_43622] Error 1
+make[4]: Leaving directory '/media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_43622/fast' failed
+make[3]: *** [cmTC_43622/fast] Error 2
+make[3]: Leaving directory '/media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp'
+
+File /media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_759cf/fast"
+make[3]: Entering directory '/media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_759cf.dir/build.make CMakeFiles/cmTC_759cf.dir/build
+make[4]: Entering directory '/media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_759cf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_759cf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_759cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_759cf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_759cf.dir/CheckFunctionExists.c.o  -o cmTC_759cf -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_759cf.dir/build.make:97: recipe for target 'cmTC_759cf' failed
+make[4]: *** [cmTC_759cf] Error 1
+make[4]: Leaving directory '/media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_759cf/fast' failed
+make[3]: *** [cmTC_759cf/fast] Error 2
+make[3]: Leaving directory '/media/tuukka/153CC046EEFB5ED9/coodi/pmcenum/solvers/riss_7/riss_7/build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -static -s CMakeFiles/riss-core.dir/core/Main.cc.o  -o ../bin/riss-core ../lib/libriss.a ../lib/libcoprocessor.a ../lib/libriss.a -lz -lpthread -lrt 

@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/coprocessor-lib-static.dir/CP3Config.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/Circuit.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/Coprocessor.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/OutputFormula.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/Shuffler.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/libcoprocessorc.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/BVE.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/BVEParallel.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/BVA.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/ClauseElimination.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Dense.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Entailed.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/EquivalenceElimination.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Experimental.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/FourierMotzkin.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/HiddenTautologyElimination.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/LiteralAddition.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/ModPrep.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Probing.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Propagation.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Resolving.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Rewriter.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Subsumption.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Symmetry.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Unhiding.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/BCE.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/RATE.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/HBR.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/SLS.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/techniques/Xor.cc.o"
+  "CMakeFiles/coprocessor-lib-static.dir/version.cc.o"
+  "../lib/libcoprocessor.pdb"
+  "../lib/libcoprocessor.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/coprocessor-lib-static.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

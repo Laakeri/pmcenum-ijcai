@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd simp
+make rs
+cp glucose_static ../bin
