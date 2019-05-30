@@ -51,10 +51,10 @@ void testGraph(std::string filename, int tw) {
       }
     }
   }
-  // int asp_tw = TreewidthAsp(graph, true);
-  // if (asp_tw != tw) {
-  //   utils::ErrorDie("Fail ", filename, " ASP. Got ", asp_tw, " expected ", tw);
-  // }
+  int asp_tw = TreewidthAsp(graph, true);
+  if (asp_tw != tw) {
+    utils::ErrorDie("Fail ", filename, " ASP. Got ", asp_tw, " expected ", tw);
+  }
   int comb_tw = TreewidthComb(graph, true);
   if (comb_tw != tw) {
     utils::ErrorDie("Fail ", filename, " comb. Got ", comb_tw, " expected ", tw);
